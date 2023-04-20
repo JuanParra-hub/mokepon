@@ -1,35 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Pokemon+Solid&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&family=Press+Start+2P&family=Share+Tech+Mono&display=swap");
+
 body {
-    font-family: 'VT323', monospace;
-    background-color: #FF6D60;
-    font-size: 20px;
-  }
+  font-family: "Fira Code", monospace;
+  background-color: #a6d0dd;
+  font-size: 20px;
+}
 #seleccionar-mascota {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 .titulo {
-    color: white;
-    font-family: 'Pokemon Solid', sans-serif;
-    font-size: 40px;
-  }
-  .subtitulo{
-      color: white;
-      font-size: 20px;
-  }
+  color: white;
+  font-family: "Press Start 2P", cursive;
+  font-size: 40px;
+}
+.subtitulo {
+  color: white;
+  font-size: 20px;
+}
 .tarjetas {
   display: flex;
   gap: 10px;
-
 }
 .tarjeta-de-mokepon {
-  width: 180px;
+  width: 200px;
   height: 100px;
-  background: #F7D060;
+  background: #ffd3b0;
   padding: 10px;
   box-sizing: border-box;
   border-radius: 20px;
@@ -38,11 +36,50 @@ body {
   align-items: center;
   color: white;
 }
-.tarjeta-de-mokepon img{
-    width: 80px;
+.tarjeta-de-mokepon img {
+  width: 80px;
 }
 input {
   display: none;
 }
-button {
+#boton-mascota {
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 30px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 20px;
+}
+
+#seleccionar-ataque {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.boton-de-ataque {
+  width: 100px;
+  background: #ffd3b0;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border-color: transparent;
+}
+
+#mensajes {
+  width: 280px;
+  background: #fff9de;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#boton-reiniciar {
+  border: none;
+  color: #a6d0dd;
 }
