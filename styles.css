@@ -64,7 +64,7 @@ input:checked + label{
   align-items: center;
 }
 .boton-de-ataque {
-  width: 180px;
+  width: 80px;
   background: #ffd3b0;
   padding: 10px;
   box-sizing: border-box;
@@ -98,7 +98,7 @@ input:checked + label{
   align-items: center;
 }
 
-@media (max-width:360px){
+@media (max-width:660px){
   .tarjetas, .tarjetas-ataques{
     flex-direction: column;
   }
